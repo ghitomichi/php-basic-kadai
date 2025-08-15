@@ -11,7 +11,7 @@
         <?php
 
         function sort_2way ($array , $order){
-            if($order == 'ture'){
+            if($order == true){
                 echo '昇順にソートします。<br>';
                 sort($array);
                 }
@@ -26,10 +26,10 @@
 
         $nums = [15, 4, 18, 23, 10 ];
 
-        $order = 'ture';
+        $order = true;
         sort_2way ($nums , $order);
 
-        $order = 'false';
+        $order = false;
         sort_2way ($nums , $order);
 
         ?>
